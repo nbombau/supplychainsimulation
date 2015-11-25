@@ -1,0 +1,67 @@
+SIMAN Run Controller.
+
+1.1574074e-005 Days>SIMAN Run Controller.
+
+67.0 Days>
+                                      ARENA Simulation Results
+                              Usuario de Windows - License: 1953000636
+
+                                  Summary for Replication 1 of 3242
+
+Project: Unnamed Project                                             Run execution date : 7/16/2013
+Analyst: Usuario de Windows                                          Model revision date: 7/15/2013
+
+Replication ended at time      : 67.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Orden_de_compra.VATime                      .00000     .00000     .00000     .00000        777    
+Orden_de_compra.NVATime                     .00000     .00000     .00000     .00000        777    
+Orden_de_compra.WaitTime                    1.5160     .11123     .00000     11.000        777    
+Orden_de_compra.TranTime                    .00000     .00000     .00000     .00000        777    
+Orden_de_compra.OtherTime                   .00719     5.8476E-04 .00000     .08334        777    
+Orden_de_compra.TotalTime                   1.5232     .11091     .00000     11.000        777    
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000         57    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         57    
+Entity 1.WaitTime                           2.3508     (Insuf)    .00000     11.000         57    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         57    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         57    
+Entity 1.TotalTime                          2.3508     (Insuf)    .00000     11.000         57    
+Ordeno Dist1.Queue.WaitingTime              1.1574E-05 (Insuf)    1.1574E-05 1.1574E-05    134    
+Ordeno Dist2.Queue.WaitingTime              1.1574E-05 (Insuf)    1.1574E-05 1.1574E-05    222    
+Ordeno Dist3.Queue.WaitingTime              1.1574E-05 (Insuf)    1.1574E-05 1.1574E-05     88    
+Ordeno.Queue.WaitingTime                        --         --         --         --          0
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+VentasPromedio Value                        1981.0     (Insuf)    .00000     12975.     829.66    
+StockPromedio_Dist2 Value                   .00000     (Insuf)    .00000     .00000     .00000    
+StockPromedio Value                         28444.     (Insuf)    .00000     45956.     10858.    
+FaltantePromedio Value                      459.09     (Insuf)    .00000     2530.1     543.00    
+Faltante_Dist2 Value                        510.49     (Insuf)    .00000     13882.     972.00    
+Ventas_Dist2 Value                          4151.4     (Insuf)    .00000     32220.     .00000    
+Orden_de_compra.WIP                         18.322     (Insuf)    .00000     31.000     22.000    
+Entity 1.WIP                                2.4029     (Insuf)    .00000     6.0000     5.0000    
+Ordeno Dist1.Queue.NumberInQueue            2.3148E-05 (Insuf)    .00000     2.0000     1.0000    
+Ordeno Dist2.Queue.NumberInQueue            3.8350E-05 (Insuf)    .00000     5.0000     1.0000    
+Ordeno Dist3.Queue.NumberInQueue            1.5202E-05 (Insuf)    .00000     3.0000     .00000    
+Ordeno.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Orden_de_compra.NumberIn                    799.00    
+Orden_de_compra.NumberOut                   777.00    
+Entity 1.NumberIn                           62.000    
+Entity 1.NumberOut                          57.000    
+System.NumberOut                            834.00    
+

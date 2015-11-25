@@ -1,0 +1,226 @@
+[RESOURCES]
+[VARIABLES]
+Ventas_Min1
+Ventas_Min2
+Ventas_Min3
+Ventas_Min4
+Ventas_Min5
+Dist2_Prov1
+Dist2_Prov2
+Dispose 2.NumberOut
+Proveedor 2.NumberOut
+Faltante
+Distribuidor 1.NumberIn
+Distribuidor 3.NumberIn
+PorcentajeIncumplimientos_Min1
+PorcentajeIncumplimientos_Min2
+PorcentajeIncumplimientos_Min3
+Separate 3.NumberOut Dup
+PorcentajeIncumplimientos_Min4
+PorcentajeIncumplimientos_Min5
+Proveedor 2.NumberIn
+Dist2 Hago pedido?.NumberOut False
+Q0_Min1
+Q0_Min2
+Q0_Min3
+Q0_Min4
+Tiene como origen a Dist2?.NumberOut True
+Q0_Min5
+Minorista 3.NumberOut
+Demanda no es 0? Prov1.NumberOut True
+dem
+Minorista 1.NumberIn
+Proceso el pedido Tau Dist2.NumberIn
+Distribuir pedido Min3.NumberOut Dup
+Minorista 3.NumberIn
+Faltante_Min1
+Minorista 5.NumberIn
+Faltante_Min2
+Faltante_Min3
+Faltante_Min4
+Faltante_Min5
+No hay fabricacion en curso? Prov1.NumberOut False
+Prov1 Fabrico?.NumberOut True
+Q0_Prov1
+No hay pedido en curso? Min5.NumberOut False
+No hay pedido en curso? Min5.NumberOut True
+Distribuir pedido Min4.NumberOut Orig
+RupturasPromedio
+Rupturas_Min1
+Rupturas_Min2
+Rupturas_Min3
+Separate 10.NumberOut Orig
+Rupturas_Min4
+Rupturas_Min5
+Min3 Hago pedido?.NumberOut False
+Stock_Prov1
+Stock_Prov2
+Min2 Hago pedido?.NumberOut True
+PorcentajeFaltantes_Dist1
+PorcentajeFaltantes_Dist2
+PorcentajeFaltantes_Dist3
+Separate 2.NumberOut Orig
+Faltante_Prov1
+Min4 Creador de pedidos.NumberOut
+Faltante_Prov2
+Distribuidor 2.NumberOut
+Fabricacion 2.NumberIn
+Rupturas_Dist1
+Rupturas_Dist2
+Rupturas_Dist3
+Proceso el pedido Tau Prov1.NumberOut
+Entrega Dist3.NumberIn
+Separate 4.NumberOut Dup
+Entregas_Prov1
+Entregas_Prov2
+Fabricacion Prov1.NumberIn
+No hay pedido en curso? Min2.NumberOut True
+Distribuir pedido Min1.NumberOut Orig
+Min1 Hay stock para satisfacer demanda?.NumberOut True
+VentasPromedio
+Dist1 Hago pedido?.NumberOut True
+Minorista 2.NumberOut
+Distribuir pedido Min4.NumberOut Dup
+Minorista 5.NumberOut
+Ventas
+Dist1 Hago pedido?.NumberOut False
+Proceso el pedido Tau Dist2.NumberOut
+Dispose 1.NumberOut
+No hay pedido en curso? Min2.NumberOut False
+pi
+Proveedor 1.NumberOut
+Ventas_Prov1
+Ventas_Prov2
+Distribuir pedido Min5.NumberOut Orig
+No hay fabricacion en curso? Prov1.NumberOut True
+Q0_Dist1
+Q0_Dist2
+Separate 11.NumberOut Orig
+Stock_Dist1
+Stock_Dist2
+Stock_Dist3
+Min2 Hay stock para satisfacer demanda?.NumberOut True
+PorcentajeFaltantes_Min1
+StockPromedio_Dist2
+PorcentajeFaltantes_Min2
+Separate 3.NumberOut Orig
+PorcentajeFaltantes_Min3
+Inicio.NumberOut
+PorcentajeFaltantes_Min4
+StockPromedio
+PorcentajeFaltantes_Min5
+FaltantePromedio
+QTau_Min2
+QTau_Min3
+QTau_Min4
+QTau_Min5
+Prov1 Fabrico?.NumberOut False
+Faltante_Dist1
+QTau_Prov1
+Faltante_Dist2
+Faltante_Dist3
+Distribuir pedido Min5.NumberOut Dup
+Distribuidor 2.NumberIn
+Proveedor 1.NumberIn
+No hay pedido activo? Dist1.NumberOut True
+Fabricacion Prov1.NumberOut
+Entregas_Min1
+Entregas_Min2
+Entregas_Min3
+Entregas_Min4
+Prov1 Hay stock para satisfacer demanda?.NumberOut False
+Entregas_Min5
+PorcentajeIncumplimientos_Prov1
+PorcentajeIncumplimientos_Prov2
+Entregas_Dist1
+Entregas_Dist2
+Entregas_Dist3
+No hay pedido en curso? Min3.NumberOut True
+Demanda no es 0? Prov1.NumberOut False
+Distribuir pedido Min2.NumberOut Orig
+Proceso el pedido Tau Dist1.NumberIn
+Min4 Hay stock para satisfacer demanda?.NumberOut False
+Minorista 2.NumberIn
+Demanda no es 0?.NumberOut True
+Minorista 4.NumberIn
+Dist2 Hay stock para satisfacer demanda?.NumberOut False
+Separate 1.NumberOut Dup
+Separate 10.NumberOut Dup
+Distribuidor 1.NumberOut
+Min2 Hago pedido?.NumberOut False
+Fabricacion 2.NumberOut
+No hay pedido activo? Dist1.NumberOut False
+Min3 Hay stock para satisfacer demanda?.NumberOut False
+demandaGlobal
+Dist1 Hay stock para satisfacer demanda?.NumberOut False
+Tau_prov1
+Tau_prov2
+Frecuencia_pedido_min4
+Frecuencia_pedido_min5
+Minorista 4.NumberOut
+Min3 Hago pedido?.NumberOut True
+Min5 Hay stock para satisfacer demanda?.NumberOut False
+Min2 Hay stock para satisfacer demanda?.NumberOut False
+No hay pedido en curso? Min3.NumberOut False
+Distribuir pedido Min1.NumberOut Dup
+Min3 Hay stock para satisfacer demanda?.NumberOut True
+Ventas_Dist1
+Ventas_Dist2
+Ventas_Dist3
+Prov1 Hay stock para satisfacer demanda?.NumberOut True
+Min1 Hay stock para satisfacer demanda?.NumberOut False
+Entrega Dist3.NumberOut
+Fabricacion 1.NumberIn
+Dist2 Hago pedido?.NumberOut True
+Stock_Min1
+Stock_Min2
+Fabricacion_Prov1
+Stock_Min3
+Fabricacion_Prov2
+Stock_Min4
+Separate 4.NumberOut Orig
+Stock_Min5
+Minorista 1.NumberOut
+Separate 2.NumberOut Dup
+Dist1 Hay stock para satisfacer demanda?.NumberOut True
+Proceso el pedido Tau Dist1.NumberOut
+QTau_Dist1
+QTau_Dist2
+No hay pedido activo? Dist2.NumberOut True
+Min4 Hay stock para satisfacer demanda?.NumberOut True
+Distribuir pedido Min2.NumberOut Dup
+Tiene como origen a Dist2?.NumberOut False
+No hay pedido en curso? Min4.NumberOut False
+No hay pedido en curso? Min4.NumberOut True
+Min5 Creador de pedidos.NumberOut
+PorcentajeIncumplimientos_Dist1
+Distribuir pedido Min3.NumberOut Orig
+PorcentajeIncumplimientos_Dist2
+PorcentajeIncumplimientos_Dist3
+Separate 11.NumberOut Dup
+Pedido_activo_min1
+Pedido_activo_min2
+Pedido_activo_min3
+Pedido_activo_min4
+Pedido_activo_min5
+Demanda no es 0?.NumberOut False
+PorcentajeFaltantes_Prov1
+Fin.NumberOut
+PorcentajeFaltantes_Prov2
+Dist2 Hay stock para satisfacer demanda?.NumberOut True
+Proceso el pedido Tau Prov1.NumberIn
+No hay pedido activo? Dist2.NumberOut False
+Punto_pedido_Min2
+Punto_pedido_Min3
+Separate 1.NumberOut Orig
+Fabricacion 1.NumberOut
+Distribuidor 3.NumberOut
+Rupturas_Prov1
+Rupturas_Prov2
+Tau_dist1
+Tau_dist2
+Tau_dist3
+Pedido_activo_dist1
+Pedido_activo_dist2
+Pedido_activo_dist3
+Min5 Hay stock para satisfacer demanda?.NumberOut True
